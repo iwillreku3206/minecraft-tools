@@ -1,0 +1,138 @@
+body {
+    font-family: 'MinecraftiaRegular';
+    padding: 0;
+    margin: 0;
+
+    background-image: url('http://192.168.100.2/public/sites/minecraft-tools/minecraft-textures/block/dirt.png');
+    background-size: 32pt; 
+    background-color: #656565;
+    background-blend-mode: multiply;
+}
+
+.image-link {
+    cursor: pointer;
+    width: 100%;
+}
+
+nav {
+    background-color: #454444;    
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+    text-align: center;
+}
+
+.li-right {
+    float: right;
+}
+
+.nav-item {
+    border-width: 1pt;
+    background-color: #454444;
+
+    font-size: 16pt;
+
+    cursor: pointer;
+    padding-left: 16pt;
+    padding-right: 16pt;
+    padding-top: 4pt;
+    padding-bottom: 4pt;
+    color: lightgray;
+}
+
+.nav-item:hover {
+    background-color: darkgreen;
+    
+}
+/*START OF CODE ADAPTED FROM code-boxx.com*/
+#p-float {
+    max-width: 1200pt;
+    margin: 0 auto;
+    /* Clearfix */
+    overflow: auto;
+  }
+  #p-float::after {
+    /* Clearfix */
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* Product items */
+  div.p-float {
+    float: left;
+    width: 25%;
+    
+  }
+  div.p-float-in {
+    box-sizing: border-box;
+    margin: 5pt; 
+    padding: 10pt;
+    border: 1pt solid #f2dcdcef;
+    background: #fff7f7ef;
+  }
+  img.p-img {
+    width: 100%;
+    height: auto;
+  }
+  div.p-name {
+    font-weight: bold;
+    font-size: 1.1em;
+  }
+
+  div.p-desc {
+    color: #888;
+    font-size: 0.9em;
+  }
+  div.p-add {
+    text-align: center;
+    
+    color: #fff;
+    border-radius: 2pt;
+    border-width: 1pt;
+    
+    background-color: #454444;
+
+    padding: 10pt;
+    margin-left: 10pt;
+    margin-right: 10pt;
+    font-size: 1.1em;
+
+    cursor: pointer;
+  }
+
+  div.p-add:hover {
+    background: darkgreen;
+    border-color: #003000;
+  }
+  /* Responsive */
+  @media only screen and (max-width: 1024px) {
+    div.p-float { width: 33%; }
+  }
+  @media only screen and (max-width: 600px) {
+    div.p-float { width: 50%; }
+  }
+
+  /*END OF CODE ADAPTED FROM code-boxx.com*/
+
+.content-text {
+    margin: 24pt 12pt 24pt;
+    padding-left: 5pt;
+    padding-right: 5pt;
+    padding-top: 2pt;
+    padding-bottom: 2pt;
+
+
+    background-color: #ffffffef;
+
+    border-radius: 3pt;
+
+    color: black;
+}

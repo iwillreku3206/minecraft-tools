@@ -1,5 +1,5 @@
 #Minecraft Tools
-<a href="https://iwillreku3206.github.io/minecraft-tools"><img src="https://img.shields.io/static/v1?label=Visit&message=The Site&color=lightgreen"></a>
+<a href="https://iwillreku3206.github.io/minecraft-tools"><img src="https://img.shields.io/static/v1?label=Visit&message=The Site&color=lightgreen" alt="Visit the site"></a>
 
 ------------
 

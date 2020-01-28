@@ -7,11 +7,21 @@ body {
     background-size: 32pt; 
     background-color: #656565;
     background-blend-mode: multiply;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
 }
 
 .image-link {
     cursor: pointer;
-    width: 100%;
+    width: 40%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .image-link { width: 75%; }
+  }
+  @media only screen and (max-width: 600px) {
+    .image-link { width: 100%; }
 }
 
 nav {
@@ -85,11 +95,6 @@ li {
   div.p-name {
     font-weight: bold;
     font-size: 1.1em;
-  }
-
-  div.p-desc {
-    color: #888;
-    font-size: 0.9em;
   }
   div.p-add {
     text-align: center;

@@ -142,3 +142,26 @@ li {
 
 /*For forms*/
 
+.input-field {
+
+  margin-left: 5pt;
+  margin-right: 5pt;
+  border-radius: 0;
+
+  padding: 10pt 10pt 10pt;
+
+  font-family: 'MinecraftiaRegular';
+  font-size: 12pt;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wide-field {width: 90%}
+}
+
+@media only screen and (max-width: 600px) {
+  .wide-field {width: 100%}
+}
+
+.wide-field {
+  width: 80%;
+}

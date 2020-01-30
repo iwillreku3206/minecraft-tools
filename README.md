@@ -1,5 +1,5 @@
 # Minecraft Tools
-[![Visit-Site](https://img.shields.io/static/v1?label=Visit&message=The Site&color=lightgreen)](https://iwillreku3206.github.io/minecraft-tools)ß
+[![Visit-Site](https://img.shields.io/badge/Visit-The%20Site-brightgreen)](https://iwillreku3206.github.io/minecraft-tools)
 
 ------------
 

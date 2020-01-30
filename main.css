@@ -7,9 +7,6 @@ body {
     background-size: 32pt; 
     background-color: #656565;
     background-blend-mode: multiply;
-    image-rendering: pixelated;
-    image-rendering: -moz-crisp-edges;
-    image-rendering: crisp-edges;
 }
 
 .image-link {

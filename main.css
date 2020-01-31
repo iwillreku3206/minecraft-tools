@@ -152,6 +152,13 @@ li {
 
   font-family: 'MinecraftiaRegular';
   font-size: 12pt;
+    
+  border-width: 1pt;
+  border-color: black;
+}
+
+.input-field:focus {
+  border-color: darkgreen;
 }
 
 @media only screen and (max-width: 1024px) {

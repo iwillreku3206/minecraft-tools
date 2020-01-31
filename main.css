@@ -153,11 +153,11 @@ li {
   font-size: 12pt;
     
   border-radius: 0;
-  border: 5pt solid black;
+  border: 2pt solid black;
 }
 
 .input-field:focus {
-  border: 5pt solid darkgreen;
+  border: 2pt solid darkgreen;
 }
 
 @media only screen and (max-width: 1024px) {

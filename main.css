@@ -73,27 +73,27 @@ li {
     display: table;
   }
   /* Product items */
-  div.p-float {
+  div.tool-float {
     float: left;
     width: 25%;
     
   }
-  div.p-float-in {
+  div.tool-float-in {
     box-sizing: border-box;
     margin: 5pt; 
     padding: 10pt;
     border: 1pt solid #f2dcdcef;
     background: #fff7f7ef;
   }
-  img.p-img {
+  img.tool-img {
     width: 100%;
     height: auto;
   }
-  div.p-name {
+  div.tool-name {
     font-weight: bold;
     font-size: 1.1em;
   }
-  div.p-add {
+  div.use-tool {
     text-align: center;
     
     color: #fff;
@@ -110,7 +110,7 @@ li {
     cursor: pointer;
   }
 
-  div.p-add:hover {
+  div.use-tool:hover {
     background: darkgreen;
     border-color: #003000;
   }

@@ -187,7 +187,7 @@ li {
   font-family: 'MinecraftiaRegular';
 }
 
-button:hover {
+.button:hover {
   background: darkgreen;
   border: 3pt solid black;
 }

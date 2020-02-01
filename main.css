@@ -173,6 +173,8 @@ li {
 }
 
 .button {
+  color: white;
+
   background-color: green;
   border: 3pt solid gray;
   border-radius: 0;

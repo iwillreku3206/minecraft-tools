@@ -174,7 +174,7 @@ li {
 
 .button {
   background-color: green;
-  border: 3pt solid black;
+  border: 3pt solid gray;
   border-radius: 0;
 
   margin: 24pt 12pt 24pt;
@@ -188,7 +188,8 @@ li {
 }
 
 button:hover {
-  border: 3pt solid darkgreen;
+  background-color: 3pt solid darkgreen;
+  border: 3pt solid black;
 }
 
 @media only screen and (max-width: 1024px) {

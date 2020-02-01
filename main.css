@@ -188,7 +188,7 @@ li {
 }
 
 button:hover {
-  background-color: 3pt solid darkgreen;
+  background: darkgreen;
   border: 3pt solid black;
 }
 

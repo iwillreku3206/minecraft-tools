@@ -153,11 +153,11 @@ li {
   font-size: 12pt;
     
   border-radius: 0;
-  border: 1pt solid black;
+  border: 3pt solid black;
 }
 
 .input-field:focus {
-  border: 1pt solid darkgreen;
+  border: 3pt solid darkgreen;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -169,5 +169,36 @@ li {
 }
 
 .wide-field {
+  width: 80%;
+}
+
+.button {
+  background-color: green;
+  border: 3pt solid black;
+  border-radius: 0;
+
+  margin: 24pt 12pt 24pt;
+  padding-left: 5pt;
+  padding-right: 5pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+
+  font-size: 16pt;
+  font-family: 'MinecraftiaRegular';
+}
+
+button:hover {
+  border: 3pt solid darkgreen;
+}
+
+@media only screen and (max-width: 1024px) {
+  .wide-button {width: 90%}
+}
+
+@media only screen and (max-width: 600px) {
+  .wide-button {width: 100%}
+}
+
+.wide-button {
   width: 80%;
 }

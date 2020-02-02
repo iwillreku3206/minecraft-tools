@@ -205,3 +205,15 @@ li {
 .wide-button {
   width: 80%;
 }
+
+.radio-button {
+  width: 12pt; height: 12pt;
+  padding-left: 2pt;
+  padding-right: 2pt;
+  padding-top: 2pt;
+  padding-bottom: 2pt;
+  
+  border-radius: 0;
+}
+
+
